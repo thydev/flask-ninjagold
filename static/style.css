@@ -1,0 +1,40 @@
+.container{
+    width: 970px;
+    height: 700px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.gold p{
+    border: solid goldenrod 2px;
+    width: 150px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.place{
+    width: 170px;
+    height: 150px;
+    border: goldenrod solid 2px;
+    text-align: center;
+    display: inline-block;
+}
+.activity{
+    width: 700px;
+    height: 300px;
+    border: goldenrod solid 2px;
+    scroll-behavior: auto;
+    overflow: scroll;
+}
+.activity p{
+    padding: 0 10px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.win{
+    color: green;
+}
+.lost{
+    color: firebrick;
+}
